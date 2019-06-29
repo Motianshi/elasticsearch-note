@@ -14,7 +14,7 @@ Elasticsearch 也使用 Java 开发并使用 Lucene 作为其核心来实现所�
 
 ES 是基于Lucene这个非常成熟的索引方案，另加上一些分布式的实现：集群，分片，复制等。
 
-### 2. 与 Lucene 的关系
+### 2. 与Lucene的关系
 
 Lucene 是一套用于全文检索和搜寻的开源程式库，由 Apache 软件基金会支持和提供。Lucene 提供了一个简单却强大的应用程式接口，能够做全文索引和搜寻。但是 Lucene 操作复杂，一般不直接利用 Lucene 作为搜索引擎，ElasticSearch 就是利用 Java 简化了 Lucene 的使用。
 
@@ -40,7 +40,7 @@ Lucene 是一套用于全文检索和搜寻的开源程式库，由 Apache 软�
 + **记录和日志分析：**围绕Elasticsearch构建的生态系统使其成为最容易实施和扩展日志记录解决方案之一。结合Logstash，ElasticSearch 和Kibana 三个组件，可以搭建一套高效的日志收集和分析系统，也就是我们常见的ELK系统。
 + **数据可视化：**Kibana 是一款功能强大且易于使用的可视化工具，可以结合 ES 对大量数据提供图表选项、地理数据等可视化组件。
 
-### 7. 倒排索引(摘自Elasticsearch权威指南)
+### 7. 倒排索引
 
 Elasticsearch 是通过 Lucene 的倒排索引技术实现比关系型数据库更快的过滤。特别是它对多条件的过滤支持非常好。
 
